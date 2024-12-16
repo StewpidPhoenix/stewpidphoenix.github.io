@@ -55,7 +55,7 @@
                 <ul class = "contacts-list">
                     <li class="contact-item">
                         <div class = "icon-box">
-                            <ion-icon name="mail-ouline"></ion-icon>
+                            <ion-icon name="mail-outline"></ion-icon>
                         </div>
 
                         <div class="contact-info">
@@ -82,7 +82,7 @@
 
                     <li class="contact-item">
                         <div class="icon-box">
-                            <ion-icon class="location-outline"></ion-icon>
+                            <ion-icon name="location-outline"></ion-icon>
                         </div>
 
                         <div class="contact-info">
@@ -101,38 +101,966 @@
 
                     <li class="social-item">
                         <a href="#" class="social-link">
-                            <ion-icon name="logo-Linkedin" onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/')"></ion-icon>
+                            <ion-icon name="logo-Linkedin" onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank')"></ion-icon>
                         </a> 
                     </li>
 
                     <li class="socail-item">
                         <a href="#" class="social-link">
-                            <ion-icon name = "logo-Github" onclick="window.open('https://github.com/StewpidPhoenix')"></ion-icon>
+                            <ion-icon name = "logo-Github" onclick="window.open('https://github.com/StewpidPhoenix', '_blank')"></ion-icon>
                         </a>
                     </li>
                     <style>
                         .btn-container {
-                            text-align: center; /*alligns the button txt*/
+                            text-align: center; /* Center align the button if needed */
                         }
-
-                        .btn-containe2{
-                            background-color: grey;
-                            color: white;
-                            padding: 5px 10px;
-                            border: none;
-                            border-radius: 2px;
-                            text-decoration: none;
-                            display: inline-block;
-                            cursor: pointer;
-                            font-size: 12px;
+                
+                        .btn.btn-color-2 {
+                            background-color: grey; /* Grey background */
+                            color: white; /* White text */
+                            padding: 5px 10px; /* Reduced padding */
+                            border: none; /* No border */
+                            border-radius: 2px; /* Smaller rounded corners */
+                            text-decoration: none; /* Remove underline from link */
+                            display: inline-block; /* Necessary for dimensions to work */
+                            cursor: pointer; /* Change mouse cursor to indicate it's clickable */
+                            font-size: 12px; /* Smaller font size */
+                        }
+                
+                        /* Optional: add a hover effect */
+                        .btn.btn-color-2:hover {
+                            background-color: darkgrey; /* Darken the button when hovered */
                         }
                     </style>
-                </ul>
+                </head>
+                <body>
+                
+                <div class="btn-container">
+                    <a href="./assets/Resume.pdf" download="Resume.pdf" class="btn btn-color-2">
+                        Download My Full Resume
+                    </a>
+                </div>
+                
+                </body>
+                      
+                        
+            
+                    
+            
+                    </ul>
+            
+                  </div>
+            
+                </aside>
+
+
+        <div class="main-content">
+
+            <!--
+                Nav Bar-->
+
+                <nav class ="navbar">
+                    <ul class="navbar-list">
+                        
+                        <li class="navbar-item">
+                         <button class="navbar-link" data-nav-link>About</button>
+                        </li>
+
+                        <li class = "navbar-item">
+                            <button class="navbar-link" data-nav-link>Resume</button>
+                        </li> 
+
+                        <li class = "navbar-item">
+                            <button class ="navbar-link" data-nav-link>Portfolio</button>
+                        </li>
+                        <li class ="navber=item">
+                            <button class=" navbar-link" data-nav-link>Contact</button>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!--
+                #ABOUT 
+                -->
+                
+                <article class="about  active" data-page="about">
+                    <header>
+                        <h2 class="h2 article-title">About me</h2>
+                    </header>
+
+                    <section class="about-text">
+                        <p>
+                            I am a Computer Science student at Florida International University, specializing in cloud computing and software engineering. 
+                            With a strong foundation in net-centric computing and cloud architecture development, I bring the technical expertise and leadership skills necessary to guide projects from conception through successful deployment.
+                             I am dedicated to fostering collaborative teamwork, mentorship, and continuous learning. 
+                             Driven by a passion for innovative solutions, I am eager to contribute as a cloud or software engineer, continually advancing my skills and delivering value in a rapidly evolving field.
+                        </p>
+                    </section>
+
+                <!--
+                - service
+                -->
+        
+                <section class="service">
+        
+                  <h3 class="h3 service-title">What I do</h3>
+        
+                  <ul class="service-list">
+        
+                    <li class="service-item">
+        
+                      <div class="service-icon-box">
+                        <img src="./assets/images/icon-design.svg
+                        " alt="design icon" width="40">
+                      </div>
+        
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Software Engineering</h4>
+        
+                        <p class="service-item-text">
+                            Enhance operational efficiency and scalability by deploying robust, cost-effective cloud solutions that leverage automation, containerization, and serverless architectures—enabling seamless growth and optimized performance.
+                        </p>
+                      </div>
+        
+                    </li>
+        
+                    <li class="service-item">
+        
+                      <div class="service-icon-box">
+                        <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                      </div>
+        
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Cloud Engineering</h4>
+        
+                        <p class="service-item-text">
+                            Maximize efficiency and scalability by leveraging existing cloud infrastructures, seamlessly deploying workloads, and utilizing managed services. Employ serverless architectures, container orchestration, and automated CI/CD pipelines to continuously optimize performance and align resources with evolving business requirements.
+                        </p>
+                      </div>
+        
+                    </li>
+        
+                    <li class="service-item">
+        
+                      <div class="service-icon-box">
+                        <img src="./assets/images/icon-design.svg" alt="mobile app icon" width="40">
+                      </div>
+        
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Education and Mentorship</h4>
+        
+                        <p class="service-item-text">
+                          Revamped AI and Python curriculums and provided personalized training to boost student engagement and coding skills.
+                        </p>
+                      </div>
+        
+                    </li>
+        
+                    <li class="service-item">
+        
+                      <div class="service-icon-box">
+                        <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                      </div>
+        
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Web design</h4>
+        
+                        <p class="service-item-text">
+                            Create engaging, user-centric web interfaces that prioritize responsiveness, accessibility, and intuitive navigation—delivering immersive experiences that resonate with users, elevate brand identity, and drive measurable growth.
+        
+        
+                        </p>
+                      </div>
+        
+                    </li>
+        
+                  </ul>
+        
+                </section>
+        
+        
+                <!--
+                  - testimonials
+                -->
+        
+                <section class="Projects">
+        
+                  
+        
+                    
+                    
+        
+                    
+        
+                  </ul>
+        
+                </section>
+        
+        
+                <!--
+                  - testimonials modal
+                -->
+        
+                <div class="modal-container" data-modal-container>
+        
+                  <div class="overlay" data-overlay></div>
+        
+                  <section class="testimonials-modal">
+        
+                    <button class="modal-close-btn" data-modal-close-btn>
+                      <ion-icon name="close-outline"></ion-icon>
+                    </button>
+        
+                    <div class="modal-img-wrapper">
+                      <figure class="modal-avatar-box">
+                        <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                      </figure>
+        
+                      <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                    </div>
+        
+                    
+        
+                  </section>
+        
+                </div>
+        
+        
+                <!--
+                  - Associations
+                -->
+        
+                <section class="Associations">
+        
+                  <h3 class="h3 Associations-title">Associations</h3>
+        
+                  <ul class="Associations-list has-scrollbar">
+        
+                    <li class="service-item">
+        
+                      <div class="service-icon-box">
+                        <img src="./assets/images/icon-dev.svg
+                        " alt="design icon" width="40">
+                      </div>
+        
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title">FIU INIT</h4>
+        
+                        <p class="service-item-text">
+                          I attended workshops in AI, ML, game development, and other topics. As well as networked, and mentored new members.
+                        </p>
+                      </div>
+        
+                    </li>
+        
+                  </ul>
+        
+                </section>
+        
+              </article>
+        
+        
+        
+        
+        
+              <!--
+                - #RESUME
+              -->
+        
+              <article class="resume" data-page="resume">
+        
+                <header>
+                  <h2 class="h2 article-title">Resume</h2>
+                </header>
+        
+        
+        
+                
+                <section class="timeline">
+        
+                  <div class="title-wrapper">
+                    <div class="icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+        
+                    <h3 class="h3">Education</h3>
+                  </div>
+        
+                  <ol class="timeline-list">
+        
+                    <li class="timeline-item">
+        
+                      <h4 class="h4 timeline-item-title">Florida International University</h4>
+        
+                      <span>December 2025</span>
+        
+                      <p class="timeline-text">
+                        Graduating with a Bachelor of Science in Computer Science in December 2025, course work focused heavily in Software Engineering, Cloud Copmuting,
+                        Net-centric computing, mathematics, and software engineering.
+                      </p>
+        
+                    </li>
+        
+                  </ol>
+        
+                </section>
+        
+                <section class="timeline">
+        
+                  <div class="title-wrapper">
+                    <div class="icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+        
+                    <h3 class="h3">Experience</h3>
+                  </div>
+        
+                  <ol class="timeline-list">
+        
+                    <li class="timeline-item">
+        
+                      <h4 class="h4 timeline-item-title">Technical Product Specialist | Atento</h4>
+        
+                      <span>08/2024-current</span>
+        
+                      <p class="timeline-text">
+                        I communicated effectively with clients to diagnose and resolve technical issues, fostering long-term satisfaction and trust. Additionally, I created and standardized documentation processes, which led to a 15% increase in overall team efficiency.
+
+                      </p>
+        
+                    </li>
+        
+                    <li class="timeline-item">
+        
+                      <h4 class="h4 timeline-item-title">Softrware Engineer Intern</h4>
+        
+                      <span>08/2023 - 06/2024</span>
+        
+                      <p class="timeline-text">
+                        I developed and implemented a Python-based media management tool that significantly improved data organization, reducing weekly data handling time from twelve hours to just one, while initially processing 50 TB of video files. In addition, I instructed students in advanced programming concepts, such as algorithms and object-oriented programming, thereby strengthening their theoretical understanding and practical application skills. Furthermore, I managed and enhanced the academy’s proprietary software tools to optimize functionality and elevate the overall user experience
+
+                      </p>
+        
+                    </li>
+        
+        
+                  </ol>
+        
+                </section>
+        
+                <section class="skill">
+        
+                  <h3 class="h3 skills-title">My skills</h3>
+        
+                  <ul class="skills-list content-card">
+        
+        
+        
+                    <li class="service-item">
+        
+                      <div class="service-icon-box">
+                        <img src="./assets/images/icon-design.svg
+                        " alt="design icon" width="40">
+                      </div>
+        
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title"> Cloud Engineering</h4>
+        
+                        <p class="service-item-text">
+                          Experience with the following: AWS, Azure, OpenStack
+                        </p>
+                      </div>
+        
+                      <li class="service-item">
+        
+                        <div class="service-icon-box">
+                          <img src="./assets/images/icon-photo.svg
+                          " alt="design icon" width="40">
+                        </div>
+          
+                        <div class="service-content-box">
+                          <h4 class="h4 service-item-title"> Embedded Systems</h4>
+          
+                          <p class="service-item-text">
+                            Experience with the following: Fusion 360 (3D Modeling), sensors, motors, microcontrollers, circuit design, 
+                            cloud devices, wireless connectivity, and more. 
+                          </p>
+                        </div>
+          
+                      </li>
+
+                      <li class="service-item">
+        
+                        <div class="service-icon-box">
+                          <img src="./assets/images/icon-dev.svg
+                          " alt="design icon" width="40">
+                        </div>
+          
+                        <div class="service-content-box">
+                          <h4 class="h4 service-item-title"> Programming Languages</h4>
+          
+                          <p class="service-item-text">
+                            I am able to code in the following: Java, Python, Assembly, C++, C, Rust, SQL, JavaScript
+
+                          </p>
+                        </div>
+          
+                      </li>
+        
+                    </li>
+                    <li class="service-item">
+        
+                      <div class="service-icon-box">
+                        <img src="./assets/images/icon-design.svg
+                        " alt="design icon" width="40">
+                      </div>
+        
+                      <div class="service-content-box">
+                        <h4 class="h4 service-item-title"> Tools</h4>
+        
+                        <p class="service-item-text">
+                          PowerBI, Power Query, MySQL, Excel, API's, Fusion 360, AutoCAD, AWS, Azure, OpenStack
+                        </p>
+                      </div>
+        
+                  </ul>
+        
+        
+        
+                  
+                </section>
+        
+              </article>
+        
+        
+        
+        
+        
+           <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="portfolio">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"  onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank');"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"  onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank');"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"  onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank');"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"  onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank');"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"  onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank');"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"  onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank');"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"  onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank');"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"  onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank');"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"  onclick="window.open('https://www.linkedin.com/in/christian-stewart-302b63244/', '_blank');"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+        
+        
+              <!--
+                - #BLOG
+              -->
+        
+              <article class="Research" data-page="Research">
+        
+                <header>
+                  <h2 class="h2 article-title">Research</h2>
+                </header>
+        
+                <section class="Research Papers">
+        
+                  <ul class="Research Papers-list">
+        
+                    <li class="Research Papers-item">
+                      <a href="#">
+        
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                        </figure>
+        
+                        <div class="blog-content">
+        
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
+        
+                            <span class="dot"></span>
+        
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
+        
+                          <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+        
+                          <p class="blog-text">
+                            Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                          </p>
+        
+                        </div>
+        
+                      </a>
+                    </li>
+        
+                    <li class="blog-post-item">
+                      <a href="#">
+        
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                        </figure>
+        
+                        <div class="blog-content">
+        
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
+        
+                            <span class="dot"></span>
+        
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
+        
+                          <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+        
+                          <p class="blog-text">
+                            Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                          </p>
+        
+                        </div>
+        
+                      </a>
+                    </li>
+        
+                    <li class="blog-post-item">
+                      <a href="#">
+        
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                        </figure>
+        
+                        <div class="blog-content">
+        
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
+        
+                            <span class="dot"></span>
+        
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
+        
+                          <h3 class="h3 blog-item-title">Design digest #80</h3>
+        
+                          <p class="blog-text">
+                            Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                          </p>
+        
+                        </div>
+        
+                      </a>
+                    </li>
+        
+                    <li class="blog-post-item">
+                      <a href="#">
+        
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                        </figure>
+        
+                        <div class="blog-content">
+        
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
+        
+                            <span class="dot"></span>
+        
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
+        
+                          <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+        
+                          <p class="blog-text">
+                            Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                          </p>
+        
+                        </div>
+        
+                      </a>
+                    </li>
+        
+                    <li class="blog-post-item">
+                      <a href="#">
+        
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                        </figure>
+        
+                        <div class="blog-content">
+        
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
+        
+                            <span class="dot"></span>
+        
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
+        
+                          <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+        
+                          <p class="blog-text">
+                            Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </p>
+        
+                        </div>
+        
+                      </a>
+                    </li>
+        
+                    <li class="blog-post-item">
+                      <a href="#">
+        
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                        </figure>
+        
+                        <div class="blog-content">
+        
+                          <div class="blog-meta">
+                            <p class="blog-category">Design</p>
+        
+                            <span class="dot"></span>
+        
+                            <time datetime="2022-02-23">Fab 23, 2022</time>
+                          </div>
+        
+                          <h3 class="h3 blog-item-title">Design digest #79</h3>
+        
+                          <p class="blog-text">
+                            Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                          </p>
+        
+                        </div>
+        
+                      </a>
+                    </li>
+        
+                  </ul>
+        
+                </section>
+        
+              </article>
+        
+        
+        
+        
+        
+              <!--
+                - #CONTACT
+              -->
+        
+              <article class="contact" data-page="contact">
+        
+                <header>
+                  <h2 class="h2 article-title">Contact</h2>
+                </header>
+        
+                <section class="mapbox" data-mapbox>
+                  <figure>
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.39567726348!2d-80.31186045262689!3d25.782538873757844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL!5e0!3m2!1sen!2sus!4v1711515833893!5m2!1sen!2sus"
+                      width="400" height="300" loading="lazy"></iframe>
+                  </figure>
+                </section>
+        
+                <section class="contact-form">
+        
+                  <h3 class="h3 form-title">Contact Form</h3>
+        
+                  <form action="#" class="form" data-form>
+        
+                    <div class="input-wrapper">
+                      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        
+                      <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                    </div>
+        
+                    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+        
+                    <button class="form-btn" type="submit" disabled data-form-btn>
+                      <ion-icon name="paper-plane"></ion-icon>
+                      <span>Send Message</span>
+                    </button>
+        
+                  </form>
+        
+                </section>
+        
+              </article>
+        
             </div>
-        </aside>
+        
+          </main>
+        
+        
+        
+        
+        
+        
+          <!--
+            - custom js link
+          -->
+          <script src="./assets/js/script.js"></script>
+        
+          <!--
+            - ionicon link
+          -->
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        </body>
+        
+        </html>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
 
 
     </main>
+
+
+
+ 
+
+
+
 
 </body>
 
