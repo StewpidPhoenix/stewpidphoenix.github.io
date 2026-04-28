@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Christian Stewart | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-contact">
+<div class="site-wrapper">
+    <aside class="sidebar">
+        <div class="profile-photo">
+            <a href="index.html"><img src="images/profile-pic.jpg" alt="Portrait of Christian Stewart"></a>
+        </div>
+        <h1>Christian Stewart</h1>
+        <p class="tagline">Software Engineer</p>
+
+        <ul class="contact-list">
+            <li class="contact-item">
+                <span class="label">Email</span>
+                <a href="mailto:christianstewart0527@gmail.com">christianstewart0527@gmail.com</a>
+            </li>
+            <li class="contact-item">
+                <span class="label">Phone</span>
+                <span>+1 (786) 399-9811</span>
+            </li>
+            <li class="contact-item">
+                <span class="label">Location</span>
+                <span>Miami, Florida, USA</span>
+            </li>
+        </ul>
+
+    </aside>
+
+    <div class="main-column">
+        <header class="top-nav">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="what-i-do.html">What I Do</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="section-header">
+                <h2>Contact</h2>
+                <div class="underline"></div>
+            </section>
+
+            <p class="section-intro">
+                Use the form below to send me a message, or email me directly at
+                <a href="mailto:christianstewart0527@gmail.com">christianstewart0527@gmail.com</a>.
+            </p>
+
+            <form class="contact-form"
+                  action="mailto:christianstewart0527@gmail.com"
+                  method="post"
+                  enctype="text/plain">
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input id="full-name" name="full-name" type="text" required>
+                </div>
+
+                <div class="form-group form-full">
+                    <label for="subject">Subject</label>
+                    <input id="subject" name="subject" type="text">
+                </div>
+
+                <div class="form-group form-full">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <div class="button-row">
+                    <button class="btn-submit" type="submit">Send Message</button>
+                </div>
+            </form>
+        </main>
+
+        <footer class="site-footer">
+            &copy; 2025 Christian Stewart. All rights reserved.
+        </footer>
+    </div>
+</div>
+</body>
+</html>
