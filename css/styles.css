@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -329,6 +328,61 @@ form.contact-form {
 
 
 
+/* ── Resume entries (experience & projects) ── */
+
+.resume-entry {
+    background: #14161f;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 1rem;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.resume-entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-entry-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+
+.resume-entry-meta {
+    font-size: 0.8rem;
+    color: #8b8fa1;
+    white-space: nowrap;
+}
+
+.resume-entry-sub {
+    font-size: 0.88rem;
+    color: #c9cad4;
+    line-height: 1.55;
+}
+
+.resume-bullets {
+    margin-left: 1.1rem;
+    margin-top: 0.25rem;
+}
+
+.resume-bullets li {
+    font-size: 0.9rem;
+    color: #c9cad4;
+    margin-bottom: 0.35rem;
+    line-height: 1.55;
+}
+
+.resume-bullets li::marker {
+    color: #f5c542;
+}
+
+
+
 .site-footer {
     margin-top: 1.5rem;
     font-size: 0.75rem;
@@ -382,7 +436,6 @@ form.contact-form {
         text-align: left;
     }
 
-
     .contact-list {
         width: 100%;
         text-align: center;
@@ -395,7 +448,7 @@ form.contact-form {
     .contact-item span.label {
         margin-bottom: 0.1rem;
     }
- 
+
     .site-wrapper {
         margin: 0.75rem auto;
         padding: 0 0.75rem;
@@ -427,5 +480,14 @@ form.contact-form {
     .project-thumb {
         width: 100%;
         height: auto;
+    }
+
+    .resume-entry-header {
+        flex-direction: column;
+        gap: 0.15rem;
+    }
+
+    .resume-entry-meta {
+        white-space: normal;
     }
 }
